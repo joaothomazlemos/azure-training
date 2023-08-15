@@ -17,7 +17,7 @@ def test_get_model_metrics():
 
     class MockModel:
 
-        @staticmethod
+        @staticmethod #   predict = staticmethod(predict(data))
         def predict(data):
             return ([8.12121212, 7.21212121])
 
